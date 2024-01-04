@@ -1,0 +1,182 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.card{
+    min-height: auto;
+    border: 1px solid #252525;
+    padding:1rem;
+    margin:2rem;
+    box-shadow: 1px 1px 2.9px #252525;
+    width:auto;
+}
+
+
+/* Main Card */
+
+.logo{
+    position: absolute;
+    left:19px;
+    top:0;
+    width:250px;
+    height: 250px;
+    object-fit: fill;
+}
+
+.studentPic{
+    width:180px;
+    height:250px;
+    border: 1px solid #252525;
+    padding:0.2rem;
+    margin-left: 34rem;
+}
+
+.name{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color:rgba(79, 122, 253, 0.792); */
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#register{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+    color:#252525;
+    text-decoration: underline;
+    margin-bottom: 4rem;
+}
+
+.name1{
+    /* text-align: center; */
+    font-size: 32px;
+    font-weight: 900;
+    color:#252525;
+    text-shadow: 0px 2px 2px #252525;
+    /* width:100%; */
+}
+
+.name2{
+    font-size: 26px;
+    color:#252525;
+    font-weight: 700;
+    /* text-align: center; */
+    /* width:100%; */
+}
+
+label{
+    color:#252525;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 15rem;
+}
+
+input{
+    padding:0.8rem;
+    border-radius: 12px;
+    width:390px;
+    font-size: 22px;
+    font-weight: 900;
+    box-shadow: 0px 0px 3px #252525;
+    margin-bottom: 2rem;
+}
+
+#name{
+    margin-left: 9rem;
+}
+
+#dob{
+    margin-left: 4.8rem;
+}
+
+#fname{
+    margin-left: 4.8rem;
+}
+
+#gender{
+    margin-left: 12.1rem;
+    padding:0.8rem;
+    border-radius: 12px;
+    width:390px;
+    font-size: 22px;
+    font-weight: 900;
+    box-shadow: 0px 0px 3px #252525;
+    margin-bottom: 2rem;
+}
+
+#address{
+    margin-top: -30px;
+    margin-left: 33.5rem;
+    padding:0.8rem;
+    border-radius: 12px;
+    width:390px;
+    font-size: 22px;
+    font-weight: 900;
+    box-shadow: 0px 0px 3px #252525;
+    margin-bottom: 2rem;
+}
+
+#phone{
+    margin-left: 10.2rem;
+}
+
+#qualification{
+    margin-left: 4.8rem;
+}
+
+#school{
+    margin-left: 3.8rem;
+}
+
+#course{
+    margin-left: 12.2rem;
+    padding:0.8rem;
+    border-radius: 12px;
+    width:390px;
+    font-size: 22px;
+    font-weight: 900;
+    box-shadow: 0px 0px 3px #252525;
+    margin-bottom: 2rem;
+}
+
+#join{
+    margin-left: 6rem;
+}
+
+#pic{
+    margin-left: 2.8rem;
+}
+
+#but{
+    padding:0.8rem;
+    width:290px;
+    background-color: rgba(77, 122, 255);
+    color:mintcream;
+    text-shadow: 1px 1px 3px black;
+    border-radius: 9px;
+    border: none;
+    margin-left: 31rem;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.Gepdf{
+    background-color: rgba(77, 122, 255);
+    color:mintcream;
+    text-shadow: 1px 1px 3px black;
+    font-size: 22px;
+    font-weight: 900;
+    padding:0.7rem;
+    border-radius: 9px;
+    border: none;
+}
